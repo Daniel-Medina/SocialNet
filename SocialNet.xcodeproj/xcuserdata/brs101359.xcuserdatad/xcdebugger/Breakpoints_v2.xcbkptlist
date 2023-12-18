@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D7F4990C-52AF-4F42-A54E-9966163BD0BE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32B4CB50-A1BF-430C-A616-E1A54495DF73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/Search/View/SearchRootVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7849DF70-EEA7-4E6C-A30F-7B8539F47D97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/Search/View/SearchRootVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "updateSearchResults(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A68BB9C-3960-4930-8A0F-F14F9CCCBE2F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Libs/Notification/NotificationCenterCustom.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "requestNotificationPermission()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A68BB9C-3960-4930-8A0F-F14F9CCCBE2F - 23e55896e0783de6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static SocialNet.NotificationCenterCustom.requestNotificationPermission() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Libs/Notification/NotificationCenterCustom.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "5A68BB9C-3960-4930-8A0F-F14F9CCCBE2F - bbc17ea791af8dbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static SocialNet.NotificationCenterCustom.requestNotificationPermission() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Libs/Notification/NotificationCenterCustom.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B599B6E-C359-45EF-9B2D-7E036E0649C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "460ACFAC-8FB5-4880-AADC-7383A11B7572"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "460ACFAC-8FB5-4880-AADC-7383A11B7572 - 53a9c97f4cf5d8c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "556">
+               </Location>
+               <Location
+                  uuid = "460ACFAC-8FB5-4880-AADC-7383A11B7572 - 53a9c97f4cf5d74a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "460ACFAC-8FB5-4880-AADC-7383A11B7572 - 53a9c97f4cf5d7ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1076">
+               </Location>
+               <Location
+                  uuid = "460ACFAC-8FB5-4880-AADC-7383A11B7572 - 53a9c97f4cf5d7ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "460ACFAC-8FB5-4880-AADC-7383A11B7572 - 53a9c97f4cf5d7ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE1BEF07-824F-495C-9EE9-59802021F5A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EE1BEF07-824F-495C-9EE9-59802021F5A3 - 53a9c97f4cf5d729"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "768">
+               </Location>
+               <Location
+                  uuid = "EE1BEF07-824F-495C-9EE9-59802021F5A3 - 53a9c97f4cf5d708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "EE1BEF07-824F-495C-9EE9-59802021F5A3 - 53a9c97f4cf5d708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "788">
+               </Location>
+               <Location
+                  uuid = "EE1BEF07-824F-495C-9EE9-59802021F5A3 - 53a9c97f4cf5d76b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "992">
+               </Location>
+               <Location
+                  uuid = "EE1BEF07-824F-495C-9EE9-59802021F5A3 - 53a9c97f4cf5d708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "652">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215 - 81276725b3d8e6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.TabBarVC.createIconHeaderRight() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "4544">
+               </Location>
+               <Location
+                  uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215 - 81276725b3d8e6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.TabBarVC.createIconHeaderRight() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "4448">
+               </Location>
+               <Location
+                  uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215 - 81276725b3d8e6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.TabBarVC.createIconHeaderRight() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "4456">
+               </Location>
+               <Location
+                  uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215 - 81276725b3d8e6c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.TabBarVC.createIconHeaderRight() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "4872">
+               </Location>
+               <Location
+                  uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215 - 81276725b3d8e65c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.TabBarVC.createIconHeaderRight() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "4456">
+               </Location>
+               <Location
+                  uuid = "8803BC60-2D44-4B69-9EBF-3ECE13F5B215 - 81276725b3d8e65c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SocialNet.TabBarVC.createIconHeaderRight() -&gt; ()"
+                  moduleName = "SocialNet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brs101359/Documents/Proyectos/SocialNet/SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "4872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75BDDB28-43B9-4E42-961B-0C1FF08F1ACE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C0E0077-99E6-455E-956E-568FD5E14347"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B87DDD0D-FEED-4382-A3B5-E6C1AFEC54DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C69B0C3-3B58-406F-8105-AF9FDE7E3543"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F977D23-71AE-4791-9A4D-AF8A075A3B67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/Modules/TabBar/RootView/TabBarController/View/TabBarVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "createIconHeaderRight()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56F0004A-52A3-4E50-A612-472B85A039A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SocialNet/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

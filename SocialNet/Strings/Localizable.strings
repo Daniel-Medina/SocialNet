@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  SocialNet
+
+  Created by DANIEL CONCEPCION MEDINA PISTE on 13/12/23.
+  
+*/
+// MARK: LoginVC
+"sb.loginVC.lbLoginForContinue" = "Accede para continuar";
+"sb.loginVC.lbEnterUsername" = "Nombre de usuario";
+"sb.loginVC.txtExampleUsername" = "Ejemp: Knight123";
+"sb.loginVC.lbEnterPassword" = "Accede para continuar";
+"sb.loginVC.txtExamplePassword" = "********";
+"sb.loginVC.lbforgotMyPassword" = "Olvide mi contraseña";
+"sb.loginVC.lbNewAccount" = "Crear cuenta";
+"sb.loginVC.btnContinue" = "Acceder";

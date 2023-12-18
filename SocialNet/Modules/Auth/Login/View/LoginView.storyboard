@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" id="Y6W-OH-hqX" customClass="LoginVC" customModule="SocialNet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3A-yY-tqy">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <color key="backgroundColor" name="backgroundLogin"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e6-vG-WWv">
+                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2De-b8-AH8">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="763"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pawprint.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="neo-bk-hgt">
+                                                <rect key="frame" x="80" y="21" width="230" height="148.66666666666669"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="icoSplashWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="Jkc-tG-Lel"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqq-cz-5Il" customClass="UILabelCustom" customModule="SocialNet" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="180" width="350" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="tND-2v-t58"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                <color key="textColor" name="txtMainLoginColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="localizable" value="sb.loginVC.lbLoginForContinue"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doK-GH-Cpa" customClass="UIButtonCustom" customModule="SocialNet" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="683" width="350" height="60"/>
+                                                <color key="backgroundColor" name="btnPrimary"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="ta6-GW-JkH"/>
+                                                </constraints>
+                                                <color key="tintColor" name="txtBtnPrimary"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="---">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="localizable" value="sb.loginVC.btnContinue"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="btnContinueSetOnClickListener:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="S4X-Mz-xNZ"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ktK-tx-8Tf">
+                                                <rect key="frame" x="20" y="240" width="350" height="240"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXF-1E-lBj" customClass="UILabelCustom" customModule="SocialNet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="350" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="x2X-rb-Bqg"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                        <color key="textColor" name="txtMainLoginColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizable" value="sb.loginVC.lbEnterUsername"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="-----" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="IUt-Fl-do0" customClass="UITextFieldCustom" customModule="SocialNet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="40" width="350" height="40"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" name="txtMainLoginColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="PfB-pD-dli"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="txtMainLoginColor"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="nickname"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizadPlaceholder" value="sb.loginVC.txtExampleUsername"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQH-pH-nzB" customClass="UILabelCustom" customModule="SocialNet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="90" width="350" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="JaP-Tz-TDd"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                        <color key="textColor" name="txtMainLoginColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizable" value="sb.loginVC.lbEnterPassword"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="---" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="1S7-Ff-aT4" customClass="UITextFieldCustom" customModule="SocialNet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="130" width="350" height="40"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" systemColor="placeholderTextColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="0gJ-8P-ctP"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="txtMainLoginColor"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizadPlaceholder" value="sb.loginVC.txtExamplePassword"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5P-5d-aRG" customClass="UILabelCustom" customModule="SocialNet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="180" width="350" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="Y56-nz-vKv"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                        <color key="textColor" name="txtMainLoginColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizable" value="sb.loginVC.lbforgotMyPassword"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuD-HJ-gW9" customClass="UILabelCustom" customModule="SocialNet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="210" width="350" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="9Ln-Ic-Kwe"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                                        <color key="textColor" name="txtMainLoginColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizable" value="sb.loginVC.lbNewAccount"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="neo-bk-hgt" firstAttribute="leading" secondItem="2De-b8-AH8" secondAttribute="leading" constant="80" id="B5D-Pt-sU4"/>
+                                            <constraint firstItem="neo-bk-hgt" firstAttribute="top" secondItem="2De-b8-AH8" secondAttribute="top" constant="20" id="Bsf-we-P84"/>
+                                            <constraint firstAttribute="trailing" secondItem="neo-bk-hgt" secondAttribute="trailing" constant="80" id="E7s-vh-bes"/>
+                                            <constraint firstItem="Oqq-cz-5Il" firstAttribute="leading" secondItem="2De-b8-AH8" secondAttribute="leading" constant="20" id="HKu-7b-lzN"/>
+                                            <constraint firstAttribute="trailing" secondItem="ktK-tx-8Tf" secondAttribute="trailing" constant="20" id="Jol-TS-IFc"/>
+                                            <constraint firstItem="doK-GH-Cpa" firstAttribute="leading" secondItem="2De-b8-AH8" secondAttribute="leading" constant="20" id="NcE-J6-rj6"/>
+                                            <constraint firstAttribute="trailing" secondItem="doK-GH-Cpa" secondAttribute="trailing" constant="20" id="QmL-kO-ydx"/>
+                                            <constraint firstItem="ktK-tx-8Tf" firstAttribute="leading" secondItem="2De-b8-AH8" secondAttribute="leading" constant="20" id="bYL-I5-JOh"/>
+                                            <constraint firstItem="Oqq-cz-5Il" firstAttribute="top" secondItem="neo-bk-hgt" secondAttribute="bottom" constant="10" id="eSM-U0-Vn6"/>
+                                            <constraint firstItem="ktK-tx-8Tf" firstAttribute="top" secondItem="Oqq-cz-5Il" secondAttribute="bottom" constant="20" id="f29-zH-YUl"/>
+                                            <constraint firstAttribute="trailing" secondItem="Oqq-cz-5Il" secondAttribute="trailing" constant="20" id="ibM-zw-UBx"/>
+                                            <constraint firstAttribute="bottom" secondItem="doK-GH-Cpa" secondAttribute="bottom" constant="20" id="kJL-VJ-TiA"/>
+                                            <constraint firstItem="doK-GH-Cpa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ktK-tx-8Tf" secondAttribute="bottom" constant="40" id="qtX-8V-rMu"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="2000" id="rJ2-ek-2NX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2De-b8-AH8" firstAttribute="bottom" secondItem="fnc-Fk-F6o" secondAttribute="bottom" id="5wD-4u-8I5"/>
+                                    <constraint firstItem="fnc-Fk-F6o" firstAttribute="top" secondItem="2De-b8-AH8" secondAttribute="top" id="6Rd-iz-Z4h"/>
+                                    <constraint firstItem="fnc-Fk-F6o" firstAttribute="leading" secondItem="2De-b8-AH8" secondAttribute="leading" id="aAb-v7-A3e"/>
+                                    <constraint firstItem="2De-b8-AH8" firstAttribute="width" secondItem="96F-fc-eaG" secondAttribute="width" id="giR-6f-uxT"/>
+                                    <constraint firstItem="2De-b8-AH8" firstAttribute="trailing" secondItem="fnc-Fk-F6o" secondAttribute="trailing" id="vWp-Eo-1nd"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fnc-Fk-F6o"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="96F-fc-eaG"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="s3A-yY-tqy" secondAttribute="trailing" id="6xG-8N-VYJ"/>
+                            <constraint firstItem="s3A-yY-tqy" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="86D-Dj-ScF"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="4e6-vG-WWv" secondAttribute="bottom" id="Agh-4F-f3s"/>
+                            <constraint firstAttribute="bottom" secondItem="s3A-yY-tqy" secondAttribute="bottom" id="DNH-x4-Aod"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4e6-vG-WWv" secondAttribute="trailing" id="V5r-de-yuQ"/>
+                            <constraint firstItem="4e6-vG-WWv" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="VFk-c8-SgS"/>
+                            <constraint firstItem="s3A-yY-tqy" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="hcw-OE-D0E"/>
+                            <constraint firstItem="2De-b8-AH8" firstAttribute="height" secondItem="vDu-zF-Fre" secondAttribute="height" priority="250" id="jZU-Yv-vXt"/>
+                            <constraint firstItem="4e6-vG-WWv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="zcE-Uj-z9v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnContinue" destination="doK-GH-Cpa" id="GvN-wa-IE4"/>
+                        <outlet property="imgLogotiype" destination="neo-bk-hgt" id="RMu-ri-onz"/>
+                        <outlet property="lbCreateNewAccount" destination="uuD-HJ-gW9" id="Ee2-TM-ibs"/>
+                        <outlet property="lbEnterPassword" destination="dQH-pH-nzB" id="M3C-jB-Xxo"/>
+                        <outlet property="lbEnterUsername" destination="SXF-1E-lBj" id="9FO-kQ-cag"/>
+                        <outlet property="lbForgotMyPassword" destination="k5P-5d-aRG" id="cEb-3n-JMn"/>
+                        <outlet property="lbLoginForContinue" destination="Oqq-cz-5Il" id="Op3-X5-mLw"/>
+                        <outlet property="stackContainer" destination="ktK-tx-8Tf" id="dAI-Ei-dmw"/>
+                        <outlet property="txtPassword" destination="1S7-Ff-aT4" id="aVs-yT-V6i"/>
+                        <outlet property="txtUsername" destination="IUt-Fl-do0" id="G8g-mH-ezl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="IUt-Fl-do0">
+            <size key="intrinsicContentSize" width="271.66666666666669" height="34"/>
+        </designable>
+        <designable name="Oqq-cz-5Il">
+            <size key="intrinsicContentSize" width="337.33333333333331" height="28.666666666666668"/>
+        </designable>
+        <designable name="SXF-1E-lBj">
+            <size key="intrinsicContentSize" width="237" height="21.666666666666668"/>
+        </designable>
+        <designable name="dQH-pH-nzB">
+            <size key="intrinsicContentSize" width="232" height="21.666666666666668"/>
+        </designable>
+        <designable name="k5P-5d-aRG">
+            <size key="intrinsicContentSize" width="238" height="19.333333333333332"/>
+        </designable>
+        <designable name="uuD-HJ-gW9">
+            <size key="intrinsicContentSize" width="192" height="19.333333333333332"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="pawprint.circle" catalog="system" width="128" height="123"/>
+        <namedColor name="backgroundLogin">
+            <color red="0.12549019607843137" green="0.50588235294117645" blue="0.97647058823529409" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="btnPrimary">
+            <color red="0.97647058823529409" green="0.59607843137254901" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="icoSplashWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="txtBtnPrimary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="txtMainLoginColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
